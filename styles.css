@@ -1,0 +1,90 @@
+body {
+  text-align: center;
+  background-color: grey;
+}
+
+button {
+  color: white;
+  background-color: gray;
+  padding: 1rem;
+  font-family: sans-serif;
+  border-radius: 20%;
+  margin: 10px 4px;
+  border: 1px solid black;
+  font-size: 1.3rem;
+  outline: none;
+}
+
+.container {
+  margin: auto;
+  margin-top: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: black;
+  width: 20rem;
+  border: 5px solid orange;
+}
+
+#output {
+  text-align: left;
+  /* padding: 20px 20px; */
+  height: 50px;
+  width: 220px;
+  font-size: 1.5rem;
+  background-color: white;
+  color: black;
+  margin-bottom: 10px;
+  word-wrap: break-word;
+  font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+#operation {
+  background-color: gold;
+  color: black;
+  font-size: 1.2rem;
+  outline: none;
+}
+
+#clear {
+  background-color: gold;
+  color: black;
+  font-size: 1.2rem;
+  outline: none;
+}
+
+#equals {
+  background-color: red;
+  color: white;
+  font-size: 1.2rem;
+  outline: none;
+}
+
+button:hover {
+  background-color: white;
+  color:black;
+}
+
+button:active {
+  background-color: #c7c7c7;
+}
+
+#operation:hover {
+  background-color: #f5eee2;
+}
+
+#operation:active {
+  background-color: #c7a800;
+}
+
+#clear:hover {
+  background-color: #f5eee2;
+}
+
+#clear:active {
+  background-color: #c7a800;
+}
+
+#equals:hover {
+  background-color: #00d94f;
+}
